@@ -84,6 +84,9 @@
                     text-decoration: line-through; 
                 }
                 button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                     background-color: var(--Darkcyan);
                     color: var(--White);
                     margin: 20px 10px 10px 0px;
@@ -93,8 +96,8 @@
                     border-style: none;
                     text-align: center;
                     ion-icon {
-                        margin: auto 5px;
                         font-size: 18px;
+                        margin: 5px;
                     }
                 }
             }
